@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+}
+
+#display {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.button-row {
+    display: flex;
+    gap: 15px;
+}
